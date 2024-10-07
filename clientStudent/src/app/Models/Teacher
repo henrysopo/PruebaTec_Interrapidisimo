@@ -1,0 +1,9 @@
+export interface Teacher{
+    tipoDoc:string;
+    numeroDocumento:string;
+    primerNombre:string;
+    segundoNombre:string;
+    primerApellido:string;
+    segundoApellido:string;
+    fechaReg:Date;
+}

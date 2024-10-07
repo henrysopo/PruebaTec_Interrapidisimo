@@ -1,0 +1,63 @@
+<mat-card appearance="outlined" style="width: 70%; margin: 50px auto">
+    <mat-card-header>
+        <mat-card-title><p>CONSULTA MATERIAS POR ESTUDIANTE</p></mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-form-field [formGroup]="formCourse">
+            <mat-label>Número de documento</mat-label>
+            <input matInput formControlName="numeroDocumento" type="number">
+        </mat-form-field>
+        <mat-form-field [style.width.px]=500 [formGroup]="formCourse">
+            <mat-label>Nombre del estudiante</mat-label>
+            <input matInput formControlName="nombreEstudiante">
+        </mat-form-field>
+        <div class="flex">
+          <mat-form-field [style.width.px]=350 [formGroup]="formCourse">
+            <mat-label>Materias</mat-label>
+            <mat-select matInput formControlName="idCourseSel">
+              @for (course of fullListCourse; track course) {
+                <mat-option [value]="course.id">{{course.nombre}}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+          <button mat-flat-button color="primary" (click)="addCourses()" style="margin-left: 30px;">Agregar</button>
+          <button mat-flat-button color="warn" (click)="GoBack()" style="margin-left: 10px;">Volver</button>
+        </div>
+        <table mat-table [dataSource]="listCourse" class="mat-elevation-z2" style="margin-top:20px">
+
+            <ng-container matColumnDef="id">
+              <th mat-header-cell *matHeaderCellDef> Código </th>
+              <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="nombre">
+              <th mat-header-cell *matHeaderCellDef> Nombre </th>
+              <td mat-cell *matCellDef="let element"> {{element.nombre}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="descripcion">
+              <th mat-header-cell *matHeaderCellDef> Descripción </th>
+              <td mat-cell *matCellDef="let element"> {{element.descripcion}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="docente">
+              <th mat-header-cell *matHeaderCellDef> Docente </th>
+              <td mat-cell *matCellDef="let element"> {{element.docente}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="accion">
+                <th mat-header-cell *matHeaderCellDef> </th>
+                <td mat-cell *matCellDef="let element">
+                  <button title="Lista de compañeros del curso" mat-icon-button color="primary" (click)="openDialog(element)">
+                    <mat-icon>description</mat-icon>
+                  </button>
+                     <button title="Eliminar materia asignada" mat-icon-button color="warn" (click)="eliminar(element)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+    </mat-card-content>
+</mat-card>

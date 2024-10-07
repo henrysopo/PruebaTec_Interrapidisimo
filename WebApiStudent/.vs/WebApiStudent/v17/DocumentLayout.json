@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\data\\coursedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:data\\coursedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\data\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:data\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\models\\teachermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:models\\teachermodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|d:\\trabajos\\interrapidisimo\\proyectoapi\\webapistudent\\models\\typedocmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74CEC29B-2B1A-41A9-94DB-C26D858240EE}|WebApiStudent.csproj|solutionrelative:models\\typedocmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:44:50.399Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseData.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Data\\CourseData.cs",
+              "RelativeDocumentMoniker": "Data\\CourseData.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Data\\CourseData.cs",
+              "RelativeToolTip": "Data\\CourseData.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T00:46:38.092Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentData.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Data\\StudentData.cs",
+              "RelativeDocumentMoniker": "Data\\StudentData.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Data\\StudentData.cs",
+              "RelativeToolTip": "Data\\StudentData.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCEAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T20:12:08.917Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAApwCYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:43:22.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T00:27:35.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T00:32:20.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeacherModels.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Models\\TeacherModels.cs",
+              "RelativeDocumentMoniker": "Models\\TeacherModels.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Models\\TeacherModels.cs",
+              "RelativeToolTip": "Models\\TeacherModels.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswCUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:29:35.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TypeDocModels.cs",
+              "DocumentMoniker": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Models\\TypeDocModels.cs",
+              "RelativeDocumentMoniker": "Models\\TypeDocModels.cs",
+              "ToolTip": "D:\\Trabajos\\Interrapidisimo\\ProyectoApi\\WebApiStudent\\Models\\TypeDocModels.cs",
+              "RelativeToolTip": "Models\\TypeDocModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T06:50:59.274Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

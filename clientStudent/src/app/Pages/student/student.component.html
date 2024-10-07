@@ -1,0 +1,81 @@
+<div class="mat-elevation-z2" style="width:30%;padding: 30px;margin: 50px auto;display:flex;justify-content: center;">
+
+    <form [formGroup]="formStudent">
+        <h4>DATOS DEL ESTUDIANTE</h4>
+        
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Tipo Documento</mat-label>
+                <mat-select matInput formControlName="tipoDoc">
+                  <mat-option value="CC">Cédula de ciudadania</mat-option>
+                  <mat-option value="TI">Tarjeta de identidad</mat-option>
+                  <mat-option value="RC">Registro civíl</mat-option>
+                  <mat-option value="CE">Cédula de extranjeria</mat-option>
+                  <mat-option value="PA">Pasaporte</mat-option>
+                </mat-select >
+              </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Número Documento</mat-label>
+                <input matInput formControlName="numeroDocumento">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Fecha de Nacimiento</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="fechaNacimiento">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Primer Nombre</mat-label>
+                <input matInput formControlName="primerNombre">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Segundo Nombre</mat-label>
+                <input matInput formControlName="segundoNombre">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Primer Apellido</mat-label>
+                <input matInput formControlName="primerApellido">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Segundo Apellido</mat-label>
+                <input matInput formControlName="segundoApellido">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Dirección</mat-label>
+                <input matInput formControlName="direccion">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Número Celular</mat-label>
+                <input matInput formControlName="numeroCelular">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <mat-form-field>
+                <mat-label>Email</mat-label>
+                <input matInput formControlName="email">
+            </mat-form-field>
+        </div>
+        <div class="flex">
+            <button mat-flat-button color="primary" (click)="SaveStudent()">Guardar</button>
+            <button mat-flat-button color="warn" (click)="GoBack()" style="margin-left: 10px;">Volver</button>
+        </div>
+
+    </form>
+</div>
